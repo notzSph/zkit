@@ -1,0 +1,104 @@
+/**
+* Default classes for flex property.
+*
+* "flex" ---> display: flex.
+* "f-{DIRECTION/WRAP}" ---> flex-direction & flex-wrap properties.
+* "j-{POSITION}" ---> justify-content properties.
+* "a-{POSITION}" ---> align-items properties.
+*
+* There is also a specific class, used frequently: flex-center-all.
+* It automatically set display: flex, assigning "center" to both (align-items, justify-content) properties
+*/
+
+/** Flex */
+.flex,
+.j-between,
+.j-around,
+.j-center,
+.a-center,
+.j-start,
+.a-start,
+.a-baseline,
+.j-end,
+.a-end,
+.f-column,
+.c-reverse,
+.f-row,
+.r-reverse,
+.f-wrap,
+.f-nowrap,
+.flex-center-all
+{
+  display: flex;
+  box-sizing: border-box;
+}
+
+/** Flex Direction */
+.f-row {
+  flex-direction: row;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.r-reverse {
+  flex-direction: row-reverse;
+}
+
+.c-reverse {
+  flex-direction: column-reverse;
+}
+
+/** Flex Warp */
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.f-nowrap {
+  flex-wrap: wrap;
+}
+
+/** Justify Content */
+.j-start {
+  justify-content: flex-start;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.j-end {
+  justify-content: flex-end;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.j-around {
+  justify-content: space-around;
+}
+
+/** Align Items */
+.a-start {
+    align-items: flex-start;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.a-end {
+    align-items: flex-end;
+}
+
+.a-baseline {
+  align-items: baseline;
+}
+
+/** Flex Center All */
+.flex-center-all {
+  justify-content: center;
+  align-items: center;
+}
