@@ -1,0 +1,28 @@
+/**
+* Default classes for interactions properties.
+*
+* Classes Name  --->  {INTERACTION}-{INTERACTION_TYPE}
+*/
+
+/** Cursors */
+.c-pointer {
+    cursor: pointer;
+}
+
+/** Unselect & Undrag */
+.unselect-undrag {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: 0;
+}
