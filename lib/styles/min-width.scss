@@ -1,0 +1,72 @@
+/**
+* Default classes for min-width property.
+*
+* Classes Name  --->  mnw-{VALUE_IN_PERCENTAGE}
+*
+* All Classes starting with "mnw-" inherit: 
+*   - position = relative
+*   - box-sizing = border box 
+*/
+
+.mnw-100 {
+    min-width: 100%;
+}
+.mnw-95 {
+    min-width: 95%;
+}
+.mnw-90 {
+    min-width: 90%;
+}
+.mnw-85 {
+    min-width: 85%;
+}
+.mnw-80 {
+    min-width: 80%;
+}
+.mnw-70 {
+    min-width: 70%;
+}
+.mnw-65 {
+    min-width: 65%;
+}
+.mnw-60 {
+    min-width: 60%;
+}
+.mnw-55 {
+    min-width: 55%;
+}
+.mnw-50 {
+    min-width: 50%;
+}
+.mnw-45 {
+    min-width: 45%;
+}
+.mnw-40 {
+    min-width: 40%;
+}
+.mnw-35 {
+    min-width: 35%;
+}
+.mnw-33 {
+    min-width: 33%;
+}
+.mnw-30 {
+    min-width: 30%;
+}
+.mnw-25 {
+    min-width: 25%;
+}
+.mnw-20 {
+    min-width: 20%;
+}
+.mnw-15 {
+    min-width: 15%;
+}
+.mnw-10 {
+    min-width: 10%;
+}
+
+[class*="mnw-"]{
+    box-sizing: border-box;
+    position: relative;
+}

@@ -1,0 +1,72 @@
+/**
+* Default classes for max-width property.
+*
+* Classes Name  --->  mxw-{VALUE_IN_PERCENTAGE}
+*
+* All Classes starting with "mxw-" inherit: 
+*   - position = relative
+*   - box-sizing = border box 
+*/
+
+.mxw-100 {
+    max-width: 100%;
+}
+.mxw-95 {
+    max-width: 95%;
+}
+.mxw-90 {
+    max-width: 90%;
+}
+.mxw-85 {
+    max-width: 85%;
+}
+.mxw-80 {
+    max-width: 80%;
+}
+.mxw-70 {
+    max-width: 70%;
+}
+.mxw-65 {
+    max-width: 65%;
+}
+.mxw-60 {
+    max-width: 60%;
+}
+.mxw-55 {
+    max-width: 55%;
+}
+.mxw-50 {
+    max-width: 50%;
+}
+.mxw-45 {
+    max-width: 45%;
+}
+.mxw-40 {
+    max-width: 40%;
+}
+.mxw-35 {
+    max-width: 35%;
+}
+.mxw-33 {
+    max-width: 33%;
+}
+.mxw-30 {
+    max-width: 30%;
+}
+.mxw-25 {
+    max-width: 25%;
+}
+.mxw-20 {
+    max-width: 20%;
+}
+.mxw-15 {
+    max-width: 15%;
+}
+.mxw-10 {
+    max-width: 10%;
+}
+
+[class*="mxw-"]{
+    box-sizing: border-box;
+    position: relative;
+}
