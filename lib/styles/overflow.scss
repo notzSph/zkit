@@ -1,0 +1,30 @@
+/**
+* Default classes for Overflow property.
+*
+* Generic Overflow Classes Name  --->  o-{OVERFLOW_TYPE}
+* Axis Overflow Classes Name     --->  o{AXIS}-{OVERFLOW_TYPE}
+*/
+
+/** Overflow */
+.o-hidden {
+    overflow: hidden;
+}
+.o-scroll {
+    overflow: scroll;
+}
+
+/** Overflow X */
+.ox-hidden {
+    overflow-x: hidden;
+}
+.ox-scroll {
+    overflow-x: scroll;
+}
+
+/** Overflow Y */
+.oy-hidden {
+    overflow-y: hidden;
+}
+.oy-scroll {
+    overflow-y: scroll;
+}
