@@ -4,8 +4,8 @@
 ![status](https://img.shields.io/badge/status-stable-success.svg)
 ![license](https://img.shields.io/badge/license-MITX-grey.svg)
 
-> **zkit** is a Swiss-army knife kit for Sass:  
-> Global design tokens, SCSS Utils and a couple of React/Next.js hooks for layout and fullscreen state.
+**zkit** is a Swiss-army knife kit for Sass:  
+Global design tokens, SCSS Utils and a couple of React/Next.js hooks for layout and fullscreen state.
 
 ---
 
