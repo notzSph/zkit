@@ -1,0 +1,24 @@
+/**
+*   Media Query Breakpoint
+*
+*   Each device has a defined range in px to be used as min-width & max-width inside media queries.
+*   All variabiles have $mq as prefix.
+*
+*   - $mq{DEVICE_TYPE} ---> Min Device Threshold.
+*   - $mq{DEVICE_TYPE}Max ---> Max Device Threshold.
+*/
+
+/** Phone */
+$mqPhone: 300px;
+$mqPhoneMax: 767px;
+
+/** Tablet */
+$mqTablet: 768px;
+$mqTabletMax: 1023px;
+
+/** Desktop */
+$mqDesktop: 1024px;
+$mqDesktopMax: 2159px;
+
+/** Wide Desktop ( 21:9 / 32:9 ) */
+$mqWideDesktop: 2160px;
