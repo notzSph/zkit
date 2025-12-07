@@ -1,0 +1,87 @@
+/**
+* Default classes for position placement properties.
+*
+* Classes Name  --->  side-{VALUE}
+*/
+
+@import "./variables.scss";
+
+/** Top */
+.top-0 {
+    top: 0px;
+}
+.top-1 {
+    top: $microMargin;
+}
+.top-2 {
+    top: $tinyMargin;
+}
+.top-3 {
+    top: $smallMargin;
+}
+.top-4 {
+    top: $mediumMargin;
+}
+.top-5 {
+    top: $largeMargin;
+}
+
+/** Right */
+.right-0 {
+    right: 0px;
+}
+.right-1 {
+    right: $microMargin;
+}
+.right-2 {
+    right: $tinyMargin;
+}
+.right-3 {
+    right: $smallMargin;
+}
+.right-4 {
+    right: $mediumMargin;
+}
+.right-5 {
+    right: $largeMargin;
+}
+
+/** Bottom */
+.bottom-0 {
+    bottom: 0px;
+}
+.bottom-1 {
+    bottom: $microMargin;
+}
+.bottom-2 {
+    bottom: $tinyMargin;
+}
+.bottom-3 {
+    bottom: $smallMargin;
+}
+.bottom-4 {
+    bottom: $mediumMargin;
+}
+.bottom-5 {
+    bottom: $largeMargin;
+}
+
+/** Left */
+.left-0 {
+    left: 0px;
+}
+.left-1 {
+    left: $microMargin;
+}
+.left-2 {
+    left: $tinyMargin;
+}
+.left-3 {
+    left: $smallMargin;
+}
+.left-4 {
+    left: $mediumMargin;
+}
+.left-5 {
+    left: $largeMargin;
+}
