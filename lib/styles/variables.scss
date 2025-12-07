@@ -1,0 +1,77 @@
+/**
+ * Global Default Design variables.
+ *
+ * Provides the default values used across the framework for:
+ *   - Heights
+ *   - Border radius
+ *   - Font weights
+ *   - Font sizes
+ *   - Margins & paddings
+ *   - Line heights
+ *   - Transition durations
+ *   - Core colors
+ *
+ * All utility classes in this library should reference these variables
+ * to keep design consistent.
+ */
+
+/* Heights */
+$headerHeight: 75px;
+$inputHeight: 25px;
+$textareaHeight: 70px;
+$textareaMinHeight: 50px;
+
+/* Border Radius */
+$tinyRadius: 0.25rem;
+$smallRadius: 0.5rem;
+$mediumRadius: 1rem;
+$largeRadius: 1.5625rem;
+$veryLargeRadius: 3.125rem;
+$infiniteRadius: 50rem;
+
+/* Font Weights */
+$fw100: 100;
+$fw200: 205;
+$fw300: 310;
+$fw400: 420;
+$fw500: 524;
+$fw600: 630;
+$fw700: 738;
+$fw800: 846;
+
+/* Font Sizes */
+$fsMin: 0.579rem;
+$fsXS: 0.694rem;
+$fsSmall: 0.833rem;
+$fsMid: 1rem;
+$fsLarge: 1.2rem;
+$fsXL: 1.44rem;
+$fsMax: 1.728rem;
+
+/* Margins & Paddings */
+$microMargin: 0.125rem;
+$tinyMargin: 0.25rem;
+$smallMargin: 0.5rem;
+$mediumMargin: 1rem;
+$largeMargin: 1.5625rem;
+$veryLargeMargin: 3.125rem;
+$maxMargin: 6.25rem;
+
+/* Line Heights */
+$defaultLineHeight: 1.5em;
+$mobileLineHeight: 1.75em;
+
+/* Transitiions */
+$transitionTimeInstant: 0.12s;
+$transitionTimeLow: 0.25s;
+$transitionTimeMid: 0.45s;
+$transitionTimeLong: 0.85s;
+
+/* Colors */
+$transparent: rgba(255, 255, 255, 0);
+
+$black: black;
+$notBlack: rgb(38, 38, 38);
+
+$white: white;
+$notWhite: rgb(240, 240, 240);
